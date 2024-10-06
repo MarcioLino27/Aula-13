@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 04/title>
+</head>
+<body>
+    <h1>Cadastro de Lojas</h1>
+    <form id="formCadastro">
+        <label for="nomeLoja">Nome da Loja:</label>
+        <input type="text" id="nomeLoja" name="nomeLoja" placeholder="Digite o nome da loja">
+
+        <label for="cidade">Cidade:</label>
+        <input type="text" id="cidade" name="cidade" placeholder="Digite a cidade">
+
+        <label for="valorTotal">Valor Total Vendido (R$):</label>
+        <input type="number" id="valorTotal" name="valorTotal" placeholder="Digite o valor vendido no mês">
+
+        <button type="button" onclick="cadastrarLoja()">Cadastrar Loja</button>
+    
+    <div id="mensagem"></div>
+
+    <button type="button" id="reloadButton" onclick="recarregarPagina()">Recarregar Página</button>
+    </form>
+</body>
+</html>
